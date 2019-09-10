@@ -37,6 +37,8 @@ end
  # now_serving method - it should puts the next person in the line and then remove them from the front. If there is nobody in line, it should puts that "There is nobody waiting to be served!"
 
 def now_serving(katz_deli)
+  if katz_deli.count < 1
+    puts "There is nobody waiting to be served!"
 end  
    
    
