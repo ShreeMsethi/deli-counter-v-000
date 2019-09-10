@@ -28,8 +28,9 @@ def take_a_number(katz_deli, name)
     katz_deli << name
     puts "Welcome, #{name}. You are number #{katz_deli.index(name) +1} in line."
     # katz_deli.each_with_index(1){|name, index| puts "Welcome, #{name}. You are number #{index} in the line."}
+  else
+    
   end
-  katz_deli
 end  
  
  
